@@ -1,3 +1,10 @@
+interface Route {
+  path: string;
+  element: React.ReactNode;
+  errorElement?: React.ReactNode;
+  children?: Route[];
+}
+
 export type User = {
   uid: string;
   email: string | null;
