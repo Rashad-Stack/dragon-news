@@ -12,6 +12,14 @@ const routes: Route[] = [
         path: "/",
         element: <div>Home</div>,
       },
+      {
+        path: "/about",
+        element: <div>About</div>,
+      },
+      {
+        path: "/contact",
+        element: <div>Contact</div>,
+      },
     ],
   },
 ];
